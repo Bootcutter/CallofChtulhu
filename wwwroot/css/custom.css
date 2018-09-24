@@ -1,1 +1,27 @@
 /* your styles go here */
+
+.character-frame-outer
+{position: relative;}
+.character-frame-outer img.lb-image{
+    position: absolute;
+    width: 300px !important;
+    height: 400px !important;
+    top: -40px;
+    right: -40px;
+}
+
+.lb-outerContainer
+{
+   width:928px !important;
+   height: 634px !important;
+    min-width: 300px;
+    background-image: url(/img/Old_style_border.png);
+    background-size: cover;
+}
+
+.character-frame-inner
+{
+    width: 70%;
+    padding: 40px 20px 40px 20px;
+}
+
