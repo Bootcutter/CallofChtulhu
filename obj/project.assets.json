@@ -11513,11 +11513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\CoC\\CoC\\CoC.csproj",
+      "projectUniqueName": "d:\\Code\\CoC\\CoC\\CoC.csproj",
       "projectName": "CoC",
-      "projectPath": "D:\\Code\\CoC\\CoC\\CoC.csproj",
+      "projectPath": "d:\\Code\\CoC\\CoC\\CoC.csproj",
       "packagesPath": "C:\\Users\\Ceo Holt Fasner\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\CoC\\CoC\\obj\\",
+      "outputPath": "d:\\Code\\CoC\\CoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
