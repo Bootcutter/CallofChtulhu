@@ -3,7 +3,16 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
+<PropertyGroup Condition="'$(Configuration)' == 'Release'">
+  <PreBuildEvent>
+    cd "$(MSBuildProjectDirectory)/../../client"
+    npm install
+  </PreBuildEvent>
+  <PostBuildEvent>
+    cd "$(MSBuildProjectDirectory)/../../client"
+    npm run build-azure
+  </PostBuildEvent>
+</PropertyGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>

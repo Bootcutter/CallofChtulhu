@@ -61,7 +61,8 @@ IF DEFINED MSBUILD_PATH goto MsbuildPathDefined
 SET MSBUILD_PATH=%ProgramFiles(x86)%\MSBuild\14.0\Bin\MSBuild.exe
 :MsbuildPathDefined
 
-
+echo "custom"
+echo "%DEPLOYMENT_SOURCE%\wwwroot\package.json"
 
 :: Installing NPM dependencies.
 IF EXIST "%DEPLOYMENT_SOURCE%\wwwroot\package.json" (
