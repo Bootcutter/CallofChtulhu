@@ -23,8 +23,3 @@ describe('ImageGalleryComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
-function openModal(id)
-{
-  $(id).modal('show');
-}

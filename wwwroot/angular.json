@@ -30,7 +30,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery.min.js", "vendor/bootstrap/js/bootstrap.min.js","vendor/jquery.cookie/jquery.cookie.js", "js/front.js"]
           },
           "configurations": {
             "production": {
@@ -79,7 +79,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": ["node_modules/jquery/dist/jquery.min.js", "vendor/bootstrap/js/bootstrap.min.js", "vendor/jquery.cookie/jquery.cookie.js", "js/front.js"],
             "assets": [
               "src/favicon.ico",
               "src/assets"

@@ -1,1 +1,113 @@
 //Main component stylesheet
+@font-face{
+    font-family: "bedtime" ;
+    src: url("/font/bedtimestories.ttf") format('truetype'),url("/font/bedtimestories.woff") format('woff') ;
+}
+@font-face{
+    font-family: "DSZ";
+    src: url("/font/DSZierschrift.ttf") format('truetype'), url("/font/DSZierschrift.woff") format('woff') ;
+}
+@font-face{
+    font-family:"ES" ;
+    src: url("/font/EhmckeSchwabacher.ttf") format('truetype'), url("/font/EhmckeSchwabacher.woff") format('woff') ;
+}
+@font-face{
+    font-family:"JosReg" ;
+    src: url("/font/JosefinSans-Regular.ttf") format('truetype'),url("/font/JosefinSans-Regular.woff") format('woff') ;
+}
+@font-face{
+    font-family: "JosSemBold";
+    src: url("/font/JosefinSans-SemiBold.ttf") format('truetype'),url("/font/JosefinSans-SemiBold.woff") format('woff') ;
+}
+@font-face{
+    font-family:"JosSemBoldIt" ;
+    src: url("/font/JosefinSans-SemiBoldItalic.ttf") format('truetype'),url("/font/JosefinSans-SemiBoldItalic.woff") format('woff') ;
+}
+@font-face{
+    font-family:"Peter" ;
+    src: url("/font/PeterSchlemihl.ttf") format('truetype'), url("/font/PeterSchlemihl.woff") format('woff') ;
+}
+@font-face{
+    font-family:"Scribble" ;
+    src: url("//font/Scribble.ttf") format('truetype'), url("/font/Scribble.woff") format('woff') ;
+}
+@font-face{
+    font-family:"Shangri" ;
+    src: url("/font/ShangriLaNF.ttf") format('truetype'),url("/font/ShangriLaNF.otf") format('opentype') ;
+}
+
+@font-face{
+    font-family: "WiegelKurrent";
+    src: url("/font/WiegelKurrentMedium.ttf") format('truetype'),url("/font/WiegelKurrentMedium.otf") format('opentype') ;
+}
+.wiegel{font-family: "WiegelKurrent";}
+.shangri{font-family:"Shangri";
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size:3rem;
+}
+.lead{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+}
+.scribble{font-family:"Scribble";}
+.peter{font-family: "Peter";
+    p{
+        font-family: "Peter";
+        font-size: 2rem;
+    }
+    h2{
+        font-family: "Peter";
+        font-size: 3rem;
+    }
+
+}
+.josboldit{font-family: "JosSemBoldIt";
+p{
+    font-family: "JosSemBoldIt";
+    font-size: 1rem;
+}
+h4{
+    font-family: "JosSemBoldIt";
+    font-size: 1.5rem;
+}
+.heading{
+    font-family: "JosSemBoldIt";
+    font-size: 2rem;
+}
+}
+.josbold{font-family: "JosSemBold"}
+.josreg{font-family: "JosReg";}
+.es{font-family: "ES";}
+.dsz{font-family: "DSZ"}
+.bedtime{font-family: "bedtime";
+p{
+    font-family: "bedtime";
+    size: 2rem;
+}
+h2{
+    font-family: "bedtime";
+    size: 3rem;
+}
+}
+
+
+.doc-background{
+    background-image: url("img/ODRAJ80small.jpg");
+    box-shadow: 0px 0px 20px #888888;
+
+}
+
+.section-menu{
+    .box{ cursor:pointer;
+    .icon{    margin: 0 0 10px 0;
+        height: 300px; overflow: hidden;width: 100%;transition:box-shadow .3s, transform .3s; &:hover{box-shadow: 0px 0px 20px #888888;transform: scale(1.03);}}
+    img{width: 100%; transition: transform .3s, box-shadow .3s;;&:hover{transform: scale(1.1);}  }
+    
+}
+}
